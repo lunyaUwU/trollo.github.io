@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <style>
+      body{
+  background-color:  #050014;
+}
+/*center .container both horizontally and vertically*/
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 600px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  #24123b;
+  color: white;
+}
+.pfp {
+  border-radius: 20%;
+  width: 200px;
+  height: 200px;
+  border: 5px solid #24123b;
+  margin-bottom: 20px;
+}
+.bio {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.icons {
+  /*space between the icons*/
+  /*make images max 50px wide*/
+  /*center the icons*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.image600{
+  width:100%;
+  max-width:80px;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="bio">
+        <img src="https://cdn.discordapp.com/avatars/780077595643478058/63eec1ec67fc39e83b31bea7e52963b3.webp?size=128" class="pfp">
+        <h1>Your Name</h1>
+        <p>Hi This is me trollo</br>
+        </p>
+        <div class="icons">
+          <a href="https://discord.gg/unEdCYYr"><img src="https://cdn.discordapp.com/attachments/984166153221971978/1042182362903085117/icons8-discord-logo-100.png" class="image600"></a></li>
+          <a href="https://steamcommunity.com/id/nottrollo/"><img src="https://cdn.discordapp.com/attachments/984166153221971978/1042181847628648478/icons8-steam-100.png" class="image600"></a></li>
+          <a href="https://github.com/trollo2"><img src="https://cdn.discordapp.com/attachments/984166153221971978/1042182146116304906/icons8-github-100.png", class="image600"></a></li>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
